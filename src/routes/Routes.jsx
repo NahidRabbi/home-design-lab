@@ -39,10 +39,10 @@ const router = createBrowserRouter([
             {
                 path: "/Estate",
                 element: <Estate></Estate>,
-                loader: () => fetch("/nestFinder.json").then((response) => response.json()),
+                loader: () => fetch("/homeDesign.json").then((response) => response.json()),
             },
             {
-                path: "/nestFinder/:id", 
+                path: "/homeDesign/:id", 
                 element: <EstateDetails></EstateDetails>,
             },
             {
