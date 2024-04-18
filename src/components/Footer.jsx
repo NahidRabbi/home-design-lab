@@ -27,9 +27,9 @@ const Footer = () => {
                   to="/"
                   className="btn btn-ghost gap-0 font-bold normal-case text-xl text-info"
                 >
-                  Nest<span className="text-[#fff]">Finder</span>
+                  Home<span className="text-[#fff]">DesignLab</span>
                 </Link>
-                <p className="text-sm self-center pl-4">Discover Your Dream Home with NestFinder</p>
+                <p className="text-sm self-center pl-4">Discover Your Dream Home with HomeDesignLab</p>
               </span>
             </a>
           </div>
@@ -146,7 +146,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="py-6 text-sm text-center text-gray-400">
-          © 2024 NestFinder. All rights reserved.
+          © 2024 HomeDesignLab. All rights reserved.
         </div>
       </footer>
     </div>

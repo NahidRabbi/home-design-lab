@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="navbar bg-[#a90f33] shadow-lg fixed z-10">
+    <div className="navbar bg-[#a90f88] shadow-lg fixed z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -66,7 +66,7 @@ const Nav = () => {
           to="/"
           className="btn btn-ghost gap-0 font-bold normal-case text-xl text-info"
         >
-          Nest<span className="text-[#fff]">Finder</span>
+          Home<span className="text-[#fff]">DesignLab</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex ">
@@ -127,3 +127,4 @@ const Nav = () => {
   );
 };
 export default Nav;
+

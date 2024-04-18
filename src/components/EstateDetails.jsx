@@ -6,7 +6,7 @@ const EstateDetails = () => {
   const [estate, setEstate] = useState(null);
 
   useEffect(() => {
-    fetch("/nestFinder.json")
+    fetch("/homeDesign.json")
       .then((response) => response.json())
       .then((data) => {
         const selectedEstate = data.find((estate) => estate.id === parseInt(id));

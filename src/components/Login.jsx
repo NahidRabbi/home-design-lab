@@ -39,7 +39,7 @@ const Login = () => {
         <div className="flex justify-between mt-4">
           <button
             onClick={()=>googleLogin()}
-            className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Login with Google
           </button>

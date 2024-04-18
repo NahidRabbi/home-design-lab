@@ -1,6 +1,5 @@
-import Estate from "../componants/Estate";
-import Footer from "../componants/Footer";
-import Slides from "../componants/Slides";
+import Estate from "../components/Estate";
+import Slides from "../components/Slides";
 import "../css/Slide.css";
 
 const Home = () => {
