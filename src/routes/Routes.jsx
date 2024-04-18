@@ -1,14 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import MainLayout from "../layout/MainLayout";
-import Contact from "../components/Contact";
-import UpdateProfile from "../components/UpdateProfile";
-import Register from "../components/Register";
+import Contact from "../componants/Contact";
+import UpdateProfile from "../componants/UpdateProfile";
+import Register from "../componants/Register";
 import NotFoundPage from "../pages/NotFoundPage";
-import Estate from "../components/Estate";
-import Login from "../components/Login";
-import EstateDetails from "../components/EstateDetails";
-
+import Estate from "../componants/Estate";
+import Login from "../componants/Login";
+import EstateDetails from "../componants/EstateDetails";
 
 const router = createBrowserRouter([
     {
@@ -39,10 +38,10 @@ const router = createBrowserRouter([
             {
                 path: "/Estate",
                 element: <Estate></Estate>,
-                loader: () => fetch("/homeDesign.json").then((response) => response.json()),
+                loader: () => fetch("/nestFinder.json").then((response) => response.json()),
             },
             {
-                path: "/homeDesign/:id", 
+                path: "/nestFinder/:id", 
                 element: <EstateDetails></EstateDetails>,
             },
             {
