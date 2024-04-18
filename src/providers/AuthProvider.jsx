@@ -13,7 +13,7 @@ import {
 import auth from "../firebase/firebase.config";
 
 
-export const AuthContex = createContext(null);
+export const AuthContext = createContext(null);
 
 //Social Auth Providers
 const googleProvider = new GoogleAuthProvider();
@@ -64,7 +64,7 @@ const AuthProvider = ({ children }) => {
     githubLogin,
   };
 
-  return <AuthContex.Provider value={authInfo}>{children}</AuthContex.Provider>;
+  return <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>;
 };
 
 export default AuthProvider;
