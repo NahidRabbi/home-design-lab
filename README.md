@@ -2,7 +2,7 @@
 Welcome to Home Design Lab, your go-to destination for all your real estate needs!
 
 ## Live Site
-**[Visit HomeLAb]()**
+**[Visit HomeLAb](https://flourishing-macaron-6d3cef.netlify.app)**
 
 
 ## Features:
