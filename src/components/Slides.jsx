@@ -35,7 +35,7 @@ const Slides = () => {
                 we have the perfect place for you to call home.
               </span>
             </p>
-            <button className="btn bg-[#a90f33] text-white w-auto flex mx-auto">
+            <button className="btn bg-[#a90f88] text-white w-auto flex mx-auto">
               Explore Residential Properties
             </button>
           </div>
@@ -56,7 +56,7 @@ const Slides = () => {
                 retirement lifestyle.
               </span>
             </p>
-            <button className="btn bg-[#a90f33] text-white w-auto flex mx-auto">
+            <button className="btn bg-[#a90f88] text-white w-auto flex mx-auto">
               Explore Senior Living Options
             </button>
           </div>
@@ -76,7 +76,7 @@ const Slides = () => {
                 options to suit every need.
               </span>
             </p>
-            <button className="btn bg-[#a90f33] text-white w-auto flex mx-auto">
+            <button className="btn bg-[#a90f88] text-white w-auto flex mx-auto">
               Find Your Ideal Space
             </button>
           </div>
@@ -96,7 +96,7 @@ const Slides = () => {
                 luxury and practicality.{" "}
               </span>
             </p>
-            <button className="btn bg-[#a90f33] text-white w-auto flex mx-auto">
+            <button className="btn bg-[#a90f88] text-white w-auto flex mx-auto">
               Discover Community Living
             </button>
           </div>
